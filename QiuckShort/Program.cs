@@ -126,6 +126,10 @@ namespace QiuckShort
             Program myList = new Program();
             //Acept array elements
             myList.read();
+            //Callig the sorting function
+            //Fisrt call to Quick sort Algorithm
+            myList.q_sort(0, myList.getSize() - 1);
+            
         }
     }
 }

@@ -115,6 +115,11 @@ namespace QiuckShort
             Console.WriteLine("\n Number of comparisons: " + cmp_count);
             Console.WriteLine("\n Number of data movemenets: " + mov_count);
         }
+
+        int getSize()
+        {
+            return (n);
+        }
         static void Main(string[] args)
         {
         }

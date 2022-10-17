@@ -60,6 +60,13 @@ namespace QiuckShort
 
             i = low + 1;
             j = high;
+
+            pivot = arr[low];
+
+            while (i <= j)
+            {
+
+            }
         }
         static void Main(string[] args)
         {

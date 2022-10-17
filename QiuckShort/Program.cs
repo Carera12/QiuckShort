@@ -129,7 +129,8 @@ namespace QiuckShort
             //Callig the sorting function
             //Fisrt call to Quick sort Algorithm
             myList.q_sort(0, myList.getSize() - 1);
-            
+            //Display sorted array
+            myList.display();
         }
     }
 }

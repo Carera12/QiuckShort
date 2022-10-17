@@ -88,6 +88,14 @@ namespace QiuckShort
                     mov_count++;
                 }
             }
+            // j now contains the index of the last element in the sorted list
+
+            if (low < j)
+            {
+                // move the pivot to its correct posituon in the list 
+                swap(low, j);
+                mov_count++;
+            }
         }
         static void Main(string[] args)
         {

@@ -16,7 +16,10 @@ namespace QiuckShort
         //number of elements in array
         private int n;
 
+        void read()
+        {
 
+        }
         static void Main(string[] args)
         {
         }

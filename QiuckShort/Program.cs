@@ -122,6 +122,10 @@ namespace QiuckShort
         }
         static void Main(string[] args)
         {
+            //Declaring the object of the class
+            Program myList = new Program();
+            //Acept array elements
+            myList.read();
         }
     }
 }

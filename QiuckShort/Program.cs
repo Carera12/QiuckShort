@@ -40,6 +40,15 @@ namespace QiuckShort
                 arr[i] = Int32.Parse(s1);
             }
         }
+        //Swaps the element at Index x with the element at index y
+        void swap(int x, int y)
+        {
+            int temp;
+
+            temp = arr[x];
+            arr[x] = arr[y];
+            arr[y] = temp;
+        }
         static void Main(string[] args)
         {
         }

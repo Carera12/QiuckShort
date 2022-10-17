@@ -65,7 +65,13 @@ namespace QiuckShort
 
             while (i <= j)
             {
-
+                // search for an element greather then pivot
+                while ((arr[i] <= pivot) && (i <= high))
+                {
+                    i++;
+                    cmp_count++;
+                }
+                cmp_count++;
             }
         }
         static void Main(string[] args)
